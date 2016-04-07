@@ -53,6 +53,7 @@ Some restrictions:
 * The registering page must have been served securely (HTTPS without cert errors)
 * The ServiceWorker script must be on the same origin as the page, although you can import scripts from other origins using [`importScripts`](https://html.spec.whatwg.org/multipage/workers.html#apis-available-to-workers:dom-workerglobalscope-importscripts)
 * …as must the scope
+* Be served with a JavaScript content-type
 
 ### HTTPS only you say?
 
